@@ -5,10 +5,6 @@
   grid-template-columns: 2fr 1fr;
 }
 
-.record-container{
-    
-}
-
 .record-time {
   border-radius: 8px;
   border: 1px solid #6047ec;
@@ -19,4 +15,12 @@
   line-height: 160%;
   text-align: center;
   margin-bottom: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .read-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
 }

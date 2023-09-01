@@ -1,25 +1,13 @@
 import React from 'react';
 import './Bookmarks.css'
 
-const Bookmarks = () => {
+const Bookmarks = ({bookmarks}) => {
     return (
         <div className='bookmark-container'>
-            <h1>Bookmarked Blogs : 8</h1>
-            <p className='bookmark'>
-                Master Microsoft Power Platform and Become an In-Demand!
-            </p>
-            <p className='bookmark'>
-                Master Microsoft Power Platform and Become an In-Demand!
-            </p>
-            <p className='bookmark'>
-                Master Microsoft Power Platform and Become an In-Demand!
-            </p>
-            <p className='bookmark'>
-                Master Microsoft Power Platform and Become an In-Demand!
-            </p>
-            <p className='bookmark'>
-                Master Microsoft Power Platform and Become an In-Demand!
-            </p>
+            <h1>Bookmarked Blogs : {bookmarks.length}</h1>
+            {
+                bookmarks.map(bookmark => <p key={bookmark.id} className='bookmark'> {bookmark.title} </p> )
+            }
         </div>
     );
 };
