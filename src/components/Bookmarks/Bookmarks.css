@@ -1,0 +1,22 @@
+.bookmark-container {
+  border-radius: 8px;
+  background: rgba(17, 17, 17, 0.05);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bookmark-container > h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 160%;
+}
+.bookmark {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 160%;
+  border-radius: 8px;
+  background: #fff;
+  padding: 20px;
+}

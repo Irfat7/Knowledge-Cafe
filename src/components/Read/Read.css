@@ -1,0 +1,22 @@
+.read-container {
+  padding: 30px 0px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 2fr 1fr;
+}
+
+.record-container{
+    
+}
+
+.record-time {
+  border-radius: 8px;
+  border: 1px solid #6047ec;
+  background: rgba(96, 71, 236, 0.1);
+  color: #6047ec;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 160%;
+  text-align: center;
+  margin-bottom: 25px;
+}
