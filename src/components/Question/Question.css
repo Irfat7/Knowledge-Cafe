@@ -1,19 +1,20 @@
 .questions {
-  font-size: 40px;
+  font-size: clamp(26px, 5vw, 40px);
   font-style: normal;
   font-weight: 700;
   line-height: 160%; /* 64px */
 }
 
-.answer-container{
-    padding: 20px 50px;
+.answer-container {
+  padding: 20px 50px;
 }
-.answer-container>li, .answer-container{
-    margin-bottom: 10px;
-    font-size: 20px;
-    text-align: justify;
+.answer-container > li,
+.answer-container {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: justify;
 }
-.answer-container>li>span{
-    font-size: 20px;
-    font-weight: 700;
+.answer-container > li > span {
+  font-size: 20px;
+  font-weight: 700;
 }
